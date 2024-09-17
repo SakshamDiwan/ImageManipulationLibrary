@@ -1,0 +1,23 @@
+Installing and Using Image Manipulator
+
+Once you have downloaded and unzipped the project file, navigate to its directory 
+in terminal and install the camlimages library: 
+
+  $ opam install camlimages
+
+Next, upload a .ppm file of your choice to /bin.
+
+Build the project: 
+
+  $ dune build
+
+Open the project in utop:
+
+  $ dune utop
+  # #use "bin/main.ml";;
+
+To transform your provided list to grayscale, use transform_lst:
+
+    # transform_lst "<YOUR FILE NAME>.ppm";;
+
+Next, check /bin for "transformed.ppm". This is your image transformed to grayscale.

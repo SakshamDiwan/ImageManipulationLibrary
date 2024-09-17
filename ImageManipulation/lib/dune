@@ -1,0 +1,3 @@
+(library
+ (name ImageManipulation)
+ (libraries camlimages.jpeg camlimages.png))

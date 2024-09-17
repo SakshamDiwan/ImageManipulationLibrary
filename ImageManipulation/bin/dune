@@ -1,0 +1,4 @@
+(executable
+ (public_name ImageManipulation)
+ (name main)
+ (libraries ImageManipulation))

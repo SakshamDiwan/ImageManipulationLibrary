@@ -1,0 +1,28 @@
+---
+# Members of your group.
+group:
+  - name: Saksham Diwan
+    netid: sd966
+  - name: Mohit Soni
+    netid: ms3734
+  - name: Timothy Lin
+    netid: tql4
+# Your PM.
+pm:
+  name: Juntao Lei
+  netid: jl2663
+# Set to false if you don't want your gallery entry to be public.
+publish: false
+# Pithy title
+title: "Image Manipulator 2.0"
+# OK if this is a Cornell Github link, but public gallery viewers won't be able to see it.
+git-repo: "https://github.coecis.cornell.edu/ms3734/cs3110-final-project"
+# If you have no demo screencast, replace the url string with an empty string ""
+demo-video-url: ""
+# Write a short, attention-grabbing description of your project.
+desc: >
+  Welcome to our Image Manipulation module, where digital imagery is transformed
+  effortlessly. With our suite of tools, users can explore a wide range of 
+  adjustments and effects, from basic enhancements to intricate manipulations. 
+  Dive into a realm where creativity knows no bounds and every pixel is a canvas
+  for expression.

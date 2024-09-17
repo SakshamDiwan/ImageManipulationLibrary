@@ -1,0 +1,349 @@
+commit 8dd353b22aca52324391e6cf8013ce50d3c1bf1a
+Author: Saksham Diwan <sd966@cornell.edu>
+Date:   Thu May 16 05:09:39 2024 -0400
+
+    All code working
+
+commit f65ce6d9ed91d5e817f6d4a841d4906c197fc6de
+Author: Saksham Diwan <sd966@cornell.edu>
+Date:   Thu May 16 05:06:29 2024 -0400
+
+    All code refactoring possible done
+
+commit 5fd4837a13c474e67d11595c2dd0ceab26ff2794
+Author: Mohit Soni <ms3734@cornell.edu>
+Date:   Thu May 16 04:41:05 2024 -0400
+
+    Refactored main.ml code
+
+commit effb9db1ac36bdc037ade21d6057cf0b390ca8a7
+Author: Saksham Diwan <sd966@cornell.edu>
+Date:   Thu May 16 04:08:27 2024 -0400
+
+    Miracle
+
+commit 379d37a01254b9691dbab94a9503f8cc8de56f1f
+Author: Mohit Soni <ms3734@cornell.edu>
+Date:   Thu May 16 03:53:01 2024 -0400
+
+    Change YAML description
+
+commit 6c0b48adb8dd82db4764c306b053cb5733cb1425
+Author: Timothy Lin <tql4@cornell.edu>
+Date:   Thu May 16 02:41:08 2024 -0500
+
+    author documentation in main.ml
+
+commit 2f77e304aa35d4e7c1f0d7c1af45f6180858c502
+Author: Timothy Lin <tql4@cornell.edu>
+Date:   Thu May 16 02:31:59 2024 -0500
+
+    update yaml file
+
+commit 1207f5f3798705a1aec2444d113f7d9409a4b94d
+Author: Mohit Soni <ms3734@cornell.edu>
+Date:   Thu May 16 02:44:33 2024 -0400
+
+    Complete documentation for pngimg.ml
+
+commit 7fae5e11f74e81151c161b8c1037961bfbe3fd7a
+Author: Mohit Soni <ms3734@cornell.edu>
+Date:   Thu May 16 02:28:57 2024 -0400
+
+    Completed documentation for jpegimg.ml
+    
+    - Made small changes in pngimg.mli and jpegimg.mli
+
+commit 2550c9f4189103acb6aca457485c58efd8ce2379
+Author: Mohit Soni <ms3734@cornell.edu>
+Date:   Thu May 16 01:51:56 2024 -0400
+
+    Complete documentation for pngimg.mli
+
+commit 1722a5df79b415d29304961c156295018290fea1
+Author: Mohit Soni <ms3734@cornell.edu>
+Date:   Thu May 16 01:43:18 2024 -0400
+
+    Add documentation for jpeg.mli
+    
+    - Small edits to main.ml for final touches
+
+commit caa50315d618d2f455283b250280e110e0855df4
+Author: Mohit Soni <ms3734@cornell.edu>
+Date:   Thu May 16 01:26:19 2024 -0400
+
+    Add saturate v2 and saturate to main.ml
+
+commit 51e53a74b2ae62b25aa47df256226778090b100d
+Author: Saksham Diwan <sd966@cornell.edu>
+Date:   Thu May 16 01:16:53 2024 -0400
+
+    Some comments done
+
+commit 3d475cefcaaf622dbbe2db1c960501090b27acaa
+Author: Saksham Diwan <sd966@cornell.edu>
+Date:   Thu May 16 00:13:59 2024 -0400
+
+    Testing is working
+    
+    - Convolution testing takes a long time to run
+    - Commenting of code left
+    - Report writing left
+    - Bugs fixed
+
+commit c9cabe08a0bd452c677c3be73894a63e9052a3cc
+Author: Saksham Diwan <sd966@cornell.edu>
+Date:   Wed May 15 18:39:09 2024 -0400
+
+    Testing issues solved
+    
+    - Saturation unusage fixed
+    - Work on Testing
+
+commit e2764b52babca1dfc01181c53ee5543c4ac21886
+Author: Mohit Soni <ms3734@cornell.edu>
+Date:   Wed May 15 18:14:01 2024 -0400
+
+    Add more test cases for the transformations
+
+commit fedf5a724bb3b5c24d8f885159d0f48ecf7f42e3
+Author: Mohit Soni <ms3734@cornell.edu>
+Date:   Wed May 15 18:02:47 2024 -0400
+
+    Remove dim function usage from main.ml
+
+commit f530fa732007421386e74c74cdfc4bc34997d54c
+Author: Mohit Soni <ms3734@cornell.edu>
+Date:   Wed May 15 17:36:11 2024 -0400
+
+    Add test cases for 2 transformations
+    
+    - Added test case for grayscale and for vertical flip transformations
+    - Added transformation tests cases only for jpg
+    - Added helper method to compare two jpg lists
+
+commit 6af73300bac998361889d3851ddf493fa6d400c2
+Author: Mohit Soni <ms3734@cornell.edu>
+Date:   Wed May 15 17:00:37 2024 -0400
+
+    Add reverse_color function functionality to main.ml
+
+commit d58effc4d13736528de42f7fc2769383c850fbf3
+Author: Mohit Soni <ms3734@cornell.edu>
+Date:   Wed May 15 16:58:26 2024 -0400
+
+    Add transformation functionality to main.ml
+    
+    - Removed emboss function since it was a copy of add_3d_effect
+
+commit e905f29ab4ce9096ae2d303475b5313f05d99a51
+Author: Mohit Soni <ms3734@cornell.edu>
+Date:   Wed May 15 16:43:48 2024 -0400
+
+    Add more transformations
+    
+    - Emboss
+    - Unsharp
+    - Dilation
+    - Erosion
+    - Motion blur
+
+commit 2930e6b71c15becc6710a45567fd2bba61247b7d
+Author: Saksham Diwan <sd966@cornell.edu>
+Date:   Wed May 15 04:35:28 2024 -0400
+
+    More transformations added
+    
+    - Work on hue saturation implementation
+    - Work on test suite
+    - Change main to work with all transformations
+
+commit a4fbb4c41cf1f130598fdffab228b1826e1abf80
+Author: Mohit Soni <ms3734@cornell.edu>
+Date:   Mon May 13 19:14:19 2024 -0400
+
+    Add interface for client
+    
+    - Sys.argv to get command-line arguments
+    - Added try/with to catch errors purposefully thrown in code
+
+commit 0eb46ca10e79dd8566ee956c6f02ac565b902162
+Author: Mohit Soni <ms3734@cornell.edu>
+Date:   Mon May 13 17:48:01 2024 -0400
+
+    Add apply_kernel function for png
+    
+    - Extended original jpg apply_kernel to 4 tuples instead of 3 tuples
+    - Added helper  functions for apply_kernel_png
+
+commit 26b9f6cb5d0f7003cf4cef8a7916b8497d35a06f
+Author: Saksham Diwan <sd966@cornell.edu>
+Date:   Mon May 13 06:59:15 2024 -0400
+
+    More transformations added
+    
+    - Implement choice functionality.
+    - Integrate more transformations.
+    - Write Test Suite.
+
+commit 1e9b1f1f3fd90296dc3ce835eac6d64bdc56f143
+Author: Saksham Diwan <sd966@cornell.edu>
+Date:   Mon May 13 06:29:26 2024 -0400
+
+    Few more transformations applied and shifted to interface format.
+    
+    - Clear separation of concerns with transformations achieved.
+    - Integrate more transformations from other partners.
+    - Implement choice functionality.
+
+commit 22ef1ab59d6dec078cb6c075567e058c20ee5287
+Author: Saksham Diwan <sd966@cornell.edu>
+Date:   Mon May 13 04:31:31 2024 -0400
+
+    .ml and .mli files are working
+    
+    - Code now shifted to interface format
+    - Work on transformations
+    - Think of command line interface
+
+commit 750f6ccad9d426cbb36d782e4698655a532d834d
+Author: Mohit Soni <ms3734@cornell.edu>
+Date:   Sun May 12 16:44:41 2024 -0400
+
+    Add apply_kernel function which applies a specific kernel to an image represented as a list of lists
+    
+    - apply_kernel uses padding so the dimensions of the image don't change
+
+commit 483066876c444f6f642ca68aa3d70f51f46833eb
+Author: Mohit Soni <ms3734@cornell.edu>
+Date:   Sun May 12 15:49:12 2024 -0400
+
+    Add horizontal_flip functions for both png and jpg
+    
+    - Used helper function flip_row to write horizontal_flip functions
+    - Added documentation
+
+commit 81500379519d7537f4ccd0a828ba63791e9c1040
+Author: Mohit Soni <ms3734@cornell.edu>
+Date:   Sun May 12 15:36:43 2024 -0400
+
+    Add vertical_flip_png function
+    
+    - Used List.rev to implement the vertical flip transformation for png
+    - Fixed documentation of vertical flip functions
+
+commit 5fee867aee98546309314245f8d52aca39edb17c
+Author: Mohit Soni <ms3734@cornell.edu>
+Date:   Sun May 12 15:34:29 2024 -0400
+
+    Add vertical_flip_jpg method
+    
+    - Used List.rev to implement the vertical flip transformation for jpg
+
+commit 5ba3cf24ff90c27f5c2c4939425e008fee56c666
+Author: Saksham Diwan <sd966@cornell.edu>
+Date:   Sat Apr 13 13:08:16 2024 -0400
+
+    Png also working now
+    
+    - Work on Documentation
+
+commit f73e8550558fad59f3cf9286a8eb65a8a16da55a
+Author: Saksham Diwan <sd966@cornell.edu>
+Date:   Sat Apr 13 11:57:39 2024 -0400
+
+    Jpeg Functionality Added
+    
+    - Work on png functionality
+    - Work on better fucntion naming and user choice
+
+commit 271fdd414170bf9ee8d52099654f60e6bdaaf375
+Author: Timothy Lin <tql4@cornell.edu>
+Date:   Thu Mar 28 13:22:08 2024 -0400
+
+    added gitlog
+
+commit 0ab70e89819517618d73af00d28e4cbeef492706
+Author: Timothy Lin <tql4@cornell.edu>
+Date:   Thu Mar 28 13:12:33 2024 -0400
+
+    adjusted documentation in main.ml
+
+commit 66b0e204938484beaf9a31b67cabd3776607377c
+Author: Timothy Lin <tql4@cornell.edu>
+Date:   Thu Mar 28 13:08:58 2024 -0400
+
+    add source comment in main.ml
+
+commit 3db518959af7e5720e970f7103ff85db764db0f2
+Author: Timothy Lin <tql4@cornell.edu>
+Date:   Thu Mar 28 13:06:18 2024 -0400
+
+    complete INSTALL.txt
+
+commit 62e40e2091f697a84fb0cca685572e74e01f05b2
+Author: Timothy Lin <tql4@cornell.edu>
+Date:   Thu Mar 28 13:01:24 2024 -0400
+
+    adjust filepath handling
+
+commit 7e3ff830eb64912e8b34234c90d2d6b0afd1e6b2
+Author: Saksham Diwan <sd966@cornell.edu>
+Date:   Thu Mar 28 12:56:41 2024 -0400
+
+    Added utop functionality and make code more functional
+
+commit d5c192704930557f781219ab166dc929bbf11ad3
+Author: Timothy Lin <tql4@cornell.edu>
+Date:   Thu Mar 28 12:50:57 2024 -0400
+
+    add .YAML file and INSTALL.txt
+
+commit 2563533c01679c7b6e5d1f4cc0c5d4fe01fc80c7
+Author: Saksham Diwan <sd966@cornell.edu>
+Date:   Thu Mar 28 12:11:15 2024 -0400
+
+    Transformation image is now available
+    
+    - See how to present it in a better way now
+    - How to avail of the different image manipulations
+
+commit 02459c0c5caf607510e9b36fd90f783c7359c4e3
+Author: Timothy Lin <tql4@cornell.edu>
+Date:   Thu Mar 28 11:55:49 2024 -0400
+
+    implement grayscale in main.ml
+
+commit ee364717d587b6e05bc5d32375dfb6b30bc213a9
+Author: Saksham Diwan <sd966@cornell.edu>
+Date:   Thu Mar 28 10:53:30 2024 -0400
+
+    Converted image to list of lists representation for transformations
+    
+    - Code printed and checked
+    - Figure out how to create image from list of lists
+    - Apply transformation and check whether working
+
+commit 52c014a5003f10ca219413fc209d7b8fc687ae14
+Author: Timothy Lin <tql4@cornell.edu>
+Date:   Thu Mar 14 01:09:56 2024 -0400
+
+    update README
+
+commit b049c1b691f1f27093eb80c4c7ba98b6e671ae75
+Author: Saksham Diwan <sd966@cornell.edu>
+Date:   Thu Mar 14 00:07:00 2024 -0500
+
+    README Updated
+
+commit cbe8c9dfaf86ad7a13ca0c9d8abc4a3cc04fbf6a
+Author: ms3734 <ms3734@cornell.edu>
+Date:   Thu Mar 14 00:28:42 2024 -0400
+
+    Update README with name + netid
+
+commit eca74e69bafdef1593051eebf2bf6a88d296ae31
+Author: ms3734 <ms3734@cornell.edu>
+Date:   Thu Mar 14 00:28:01 2024 -0400
+
+    Initial commit
